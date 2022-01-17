@@ -10,12 +10,15 @@ int n1;
 int main()
 {
     FILE *tablica;
-    tablica = fopen("C:/Users/Emilia/Desktop/me/geoinformatyka/rok 1/podstawy infy/Ciag.txt", "r");               // otwiera plik z ciagiem liczb
+    tablica = fopen("C:/Users/Emilia/Desktop/me/geoinformatyka/rok 1/podstawy infy/Ciag.txt", "r");               // otwiera plik z ciagiem liczbbbbbbbbb
 
     if (tablica == NULL){
         printf("Blad przy wczytywaniu pliku\n");
         exit (0);                                       // w przypadku bledu
     }
+    
+    
+    
 
     i=0;
     while (fscanf(tablica, "%d,", &a[i]) != EOF){
